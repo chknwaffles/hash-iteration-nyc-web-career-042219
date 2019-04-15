@@ -13,4 +13,6 @@ def select_winner(passengers)
     if k == :k_a && v.start_with?("A")
       winner = name
   end
+  
+  winner
 end
